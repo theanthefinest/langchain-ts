@@ -1,0 +1,22 @@
+{
+  "name": "langchain_v1",
+  "version": "1.0.0",
+  "description": "A LangChain project using Google Gemini via LangChain's Google GenAI",
+  "dependencies": {
+    "@langchain/core": "^1.0.2",
+    "@langchain/google-genai": "^1.0.0",
+    "langchain": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "dotenv": "^17.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "zod": "^4.1.12"
+  },
+  "scripts": {
+    "dev": "ts-node src/main.ts",
+    "build": "tsc",
+    "chat": "ts-node --transpile-only src/main.ts"
+  }
+}
