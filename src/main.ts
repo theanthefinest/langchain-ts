@@ -1,5 +1,5 @@
-import { askQuestion } from "./chains/chain";
-import { env } from "./utils/env";
+import { askQuestion } from "./app/chains/chain";
+import { env } from "./app/utils/env";
 
 void env.GEMINI_API_KEY; // Ensure loaded
 

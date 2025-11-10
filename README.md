@@ -41,7 +41,12 @@ npm run dev
 If the project does not include these scripts, running TypeScript directly with `ts-node` is an alternative (install `ts-node` and `typescript` if needed):
 
 ```bash
-npx ts-node src/main.ts
+npx ts-node src/main.ts "Your-Question"
+```
+Or you can run: 
+
+```bash
+npm run chat "Your-Question (e.g. What is Large Language Model?)"
 ```
 
 ## Project structure
